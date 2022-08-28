@@ -15,6 +15,9 @@
 		B81E322525E65FEC00DCD8A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81E322325E65FEC00DCD8A6 /* LaunchScreen.storyboard */; };
 		B81E323025E65FEC00DCD8A6 /* SimpleNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81E322F25E65FEC00DCD8A6 /* SimpleNoteTests.swift */; };
 		B81E323B25E65FEC00DCD8A6 /* SimpleNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81E323A25E65FEC00DCD8A6 /* SimpleNoteUITests.swift */; };
+		B81E324F25E664C500DCD8A6 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81E324E25E664C500DCD8A6 /* TableViewController.swift */; };
+		B81E325425E6748800DCD8A6 /* UserDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81E325325E6748800DCD8A6 /* UserDataManager.swift */; };
+		B81E325C25E6787300DCD8A6 /* MemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81E325B25E6787300DCD8A6 /* MemoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		B81E323625E65FEC00DCD8A6 /* SimpleNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81E323A25E65FEC00DCD8A6 /* SimpleNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleNoteUITests.swift; sourceTree = "<group>"; };
 		B81E323C25E65FEC00DCD8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B81E324E25E664C500DCD8A6 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B81E325325E6748800DCD8A6 /* UserDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataManager.swift; sourceTree = "<group>"; };
+		B81E325B25E6787300DCD8A6 /* MemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,7 @@
 		B81E321725E65FE800DCD8A6 /* SimpleNote */ = {
 			isa = PBXGroup;
 			children = (
+				B81E324E25E664C500DCD8A6 /* TableViewController.swift */,
 				B81E321825E65FE800DCD8A6 /* AppDelegate.swift */,
 				B81E321A25E65FE800DCD8A6 /* SceneDelegate.swift */,
 				B81E321C25E65FE800DCD8A6 /* ViewController.swift */,
@@ -106,6 +113,8 @@
 				B81E322125E65FEC00DCD8A6 /* Assets.xcassets */,
 				B81E322325E65FEC00DCD8A6 /* LaunchScreen.storyboard */,
 				B81E322625E65FEC00DCD8A6 /* Info.plist */,
+				B81E325325E6748800DCD8A6 /* UserDataManager.swift */,
+				B81E325B25E6787300DCD8A6 /* MemoVC.swift */,
 			);
 			path = SimpleNote;
 			sourceTree = "<group>";
@@ -260,7 +269,10 @@
 			files = (
 				B81E321D25E65FE800DCD8A6 /* ViewController.swift in Sources */,
 				B81E321925E65FE800DCD8A6 /* AppDelegate.swift in Sources */,
+				B81E325425E6748800DCD8A6 /* UserDataManager.swift in Sources */,
 				B81E321B25E65FE800DCD8A6 /* SceneDelegate.swift in Sources */,
+				B81E325C25E6787300DCD8A6 /* MemoVC.swift in Sources */,
+				B81E324F25E664C500DCD8A6 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
